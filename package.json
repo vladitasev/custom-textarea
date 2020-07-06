@@ -1,0 +1,28 @@
+{
+  "name": "custom-textarea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "wc-dev clean",
+    "lint": "wc-dev lint",
+    "start": "wc-dev start",
+    "build": "wc-dev build",
+    "test": "wc-dev test",
+    "create-ui5-element": "wc-create-ui5-element",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": { "type": "git", "url": "git+https://github.com/vladitasev/custom-textarea.git" },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": { "url": "https://github.com/vladitasev/custom-textarea/issues" },
+  "homepage": "https://github.com/vladitasev/custom-textarea#readme",
+  "dependencies": {
+    "@ui5/webcomponents": "0.0.0-fd9a5462d",
+    "@ui5/webcomponents-base": "0.0.0-fd9a5462d",
+    "@ui5/webcomponents-theme-base": "0.0.0-fd9a5462d",
+    "@ui5/webcomponents-tools": "0.0.0-fd9a5462d"
+  },
+  "devDependencies": { "chromedriver": "^83.0.0" }
+}

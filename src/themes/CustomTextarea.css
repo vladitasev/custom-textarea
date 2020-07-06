@@ -1,0 +1,24 @@
+.ui5-textarea-icons {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.5rem;
+    z-index: 1;
+}
+:host([_has-icons]) .ui5-textarea-icons {
+    right: 1.5rem;
+}
+
+:host([_has-icons]) .ui5-textarea-root {
+    position: relative;
+}
+
+:host([_has-icons]) .ui5-textarea-inner {
+    padding-right: 1.25rem;
+}
+:host([growing][_has-icons]) .ui5-textarea-inner {
+    padding-right: 2.25rem;
+}
+
+::slotted(ui5-icon) {
+    cursor: pointer;
+}
