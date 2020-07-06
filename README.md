@@ -17,3 +17,6 @@ Custom textarea for UI5 Web Components (with icons like the input)
  - The `hbs` template is currently a copy/paste of the original since the partial is not released yet.
  
  Note the code in `index.html` for the usage.
+ 
+ **Important:** The Popover will not have to be explicitly imported by the custom textarea in the end, this is a 
+ workaround for a current issue that will be resolved as well.
