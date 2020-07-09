@@ -1,5 +1,4 @@
 import Textarea from "@ui5/webcomponents/dist/Textarea.js";
-import Popover from "@ui5/webcomponents/dist/Popover.js";
 
 // Template
 import CustomTextareaTemplate from "./generated/templates/CustomTextareaTemplate.lit.js";
@@ -32,10 +31,6 @@ class CustomTextarea extends Textarea {
 
 	static get styles() {
 		return [Textarea.styles, CustomTextareaCss];
-	}
-
-	static async onDefine() {
-		await Popover.define();
 	}
 
 	onBeforeRendering() {
