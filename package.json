@@ -12,17 +12,24 @@
     "create-ui5-element": "wc-create-ui5-element",
     "prepublishOnly": "npm run build"
   },
-  "repository": { "type": "git", "url": "git+https://github.com/vladitasev/custom-textarea.git" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladitasev/custom-textarea.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": { "url": "https://github.com/vladitasev/custom-textarea/issues" },
+  "bugs": {
+    "url": "https://github.com/vladitasev/custom-textarea/issues"
+  },
   "homepage": "https://github.com/vladitasev/custom-textarea#readme",
   "dependencies": {
-    "@ui5/webcomponents": "0.0.0-fd9a5462d",
-    "@ui5/webcomponents-base": "0.0.0-fd9a5462d",
-    "@ui5/webcomponents-theme-base": "0.0.0-fd9a5462d",
-    "@ui5/webcomponents-tools": "0.0.0-fd9a5462d"
+    "@ui5/webcomponents": "0.0.0-78035f8e7",
+    "@ui5/webcomponents-base": "0.0.0-78035f8e7",
+    "@ui5/webcomponents-theme-base": "0.0.0-78035f8e7",
+    "@ui5/webcomponents-tools": "0.0.0-78035f8e7"
   },
-  "devDependencies": { "chromedriver": "^83.0.0" }
+  "devDependencies": {
+    "chromedriver": "^83.0.0"
+  }
 }
